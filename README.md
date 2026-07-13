@@ -103,30 +103,6 @@ To abstract complex SQL structures away from end-users, an interactive Natural L
 
 ![AI Bot Interface](./AI-Bot/WhatsApp%20Image%202026-07-13%20at%205.15.29%20PM.jpeg)
 
-## 📁 Repository Structure
-.
-├── AI-Bot/
-│   ├── ai_engine.py                                 # LLM Text-to-SQL logic & context injection
-│   ├── athena_utils.py                              # Boto3 client initialization and AWS connections
-│   └── WhatsApp Image 2026-07-13 at 5.15.29 PM.jpeg # AI Bot App Interface Visual
-├── MH-CLD/
-│   ├── MHCLD-PBI-Photos/
-│   │   └── mhcld-photo1.jpeg                        # Clinical Care Profiling Dashboard Screenshot
-│   └── athena_mhcld_views.sql                       # SQL scripts for MH-CLD data modeling & decoding
-├── NSDUH/
-│   ├── NSDUH-PBI-Photos/
-│   │   └── nsduh-photo1.jpeg                        # National Prevalence Dashboard Screenshot
-│   └── athena_nsduh_views.sql                       # Athena external tables and type alignment SQL
-├── TEDS-A/
-│   ├── TEDSA-PBI-Photos/
-│   │   └── tedsa-photo1.JPG                         # Admission Analysis Dashboard Screenshot
-│   └── athena_tedsa_views.sql                       # SQL scripts mapping substance abuse and routes
-├── preprocessing/
-│   └── ingestion_pipeline.py                        # Polars ETL and Parquet compression scripts
-├── Mental_Health_Project_Documentation.pdf          # Comprehensive Project Report
-├── README.md                                        # System Documentation (This File)
-└── WhatsApp Image 2026-07-13 at 1.31.26 AM.jpeg     # Central Star Schema Model Diagram
-
 ---
 
 ## 🛠️ Getting Started & Installation
